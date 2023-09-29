@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Noto Sans Mono', monospace, cursive;
+       
+    
+}
+
+.link{
+    border-radius: 10px;
+    font-size: .8em;
+    background-color:  red;
+    padding: 0px;
+    margin: 10px 0px 0px 40%;
+    text-align: center;
+
+}
+
+body{
+    padding: 4px;
+    background-image: linear-gradient(to left,  #6239dd, #a487fc);
+}
+
+ul{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+picture > img{
+    padding: 4px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px #B197FC;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.895);
+    border-radius: 14px;
+    box-shadow: 5px 5px 15px #370028;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+main picture{
+    text-align: center;
+    
+}
+
+.net{
+    background-color: #183153;
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px -10px 10px -10px;
+    padding-bottom: 10px;
+}
+
+main h1{
+    color: #865dff;
+    text-align: center;
+    text-shadow: 1px 1px 2px #936ffd;
+
+}
+
+.oi{
+    text-indent: 20px;
+    line-height: 1.6em;
+}
+
+main img{
+    border-image: 20px;
+    image-rendering: 5s;
+}
+
+main > p{
+    padding: 10px;
+    text-align: justify;
+}
+
+.humilde{
+    text-align: center;
+    font-weight: bold;
+}
+
+main > div{
+    background-color: #004badd5;
+    border-radius: -10px;
+    margin: -10px;
+    margin: -10px -10px;
+    padding-bottom: 10px;    
+}
+
+h3 {
+    color: white;
+}
+
+main a{
+    text-decoration: none;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    transition-duration: .7s;
+}
+
+h2{
+    color: #183153;
+    text-align: center;
+    font-family: fantasy;
+}
